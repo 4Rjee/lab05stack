@@ -25,15 +25,7 @@ class Stack {
   void push(const T& value);
   void pop();
   const T& head() const;
-  size_t size() const;//
-
-
-#ifndef TEMPLATE_STACK_HPP
-#define TEMPLATE_STACK_HPP
-
-#endif  // TEMPLATE_STACK_HPP
-
-
+  size_t size() const;
  protected:
   Element<T>* Head = nullptr;
 };
